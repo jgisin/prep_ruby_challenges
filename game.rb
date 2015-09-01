@@ -4,7 +4,6 @@ def count_game (count, max_players)
  iterator=1 #initializes the direction of the iterator movement (negative or positive)
  position=0 #initializes the position of the game from 0 to max count
  player=1 #initializes the player position to the first player of the game
- max_players
  arr = [] #creates an array that is later populated with the player names P1-Pmax
  i = 0
  while i<max_players do
@@ -35,7 +34,6 @@ def count_game (count, max_players)
       player += iterator
     
     end       
-
     end
     end
     end
